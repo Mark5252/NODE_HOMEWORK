@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", serif;
+    margin: 0px;
+}
+.header {
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+
+}
+.logo {
+    font-size: 30px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    gap: 126px;
+}
+.navigation h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.avatar {
+    flex-direction: row;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.dollar {
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+}
+
+.amount {
+    font-size: 16px;
+    font-weight: bold;
+}
+.card {
+    height: 726px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+
+.icon img {
+    margin-bottom: 15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.speedOfearning {
+    color: gray;
+    font-size: 12px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.clickAccelerator {
+    margin-bottom: 2px;
+}
+
+.price img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.buyButton {
+    width: 59px;
+    height: 40px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buyButton:hover {
+    background: #333;
+}
+.upgrades {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    mask-image: linear-gradient(to bottom, #FAFAFA calc(100% - 59px), rgba(250, 250, 250, 0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, #FAFAFA calc(100% - 59px), rgba(250, 250, 250, 0) 100%);
+    height: 726px;
+    overflow:auto;
+}
+.upgrades::-webkit-scrollbar {
+    visibility: hidden;
+}
+.cards {
+    width: 384px;
+    height: 726px;
+}
+.stats {
+    display: flex;
+    gap: 2px;
+}
+
+.statBlock {
+    background-color: #3a3d42;
+    padding: 24px;
+    text-align: left;
+    color: white;
+    width: 264px;  
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.statBlockLeft {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.statBlockCenter {
+    border-radius: 0;
+}
+
+.statBlockRight {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.statBlock img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+}
+
+.statValue {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.statLabel {
+    font-size: 16px;
+    opacity: 0.8;
+}
+.main {
+    padding-top: 40px;
+    padding-bottom: 41px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.knopka:active {
+    transform: scale(0.95);
+}
+.knopka {
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    margin: 110px auto 0;
+    display: block;
+}
+
+.footer {
+    background-color: #61646B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px 120px 24px 120px;
+}
+.addInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 96px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footerA {
+color: #FFFFFF;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+
+}
+a {
+    text-decoration: none;
+}
+.headerA {
+    color: #61646B;
+}
+.headerA:hover {
+    color: #121212;
+}

@@ -1,0 +1,140 @@
+body {
+    font-family: "Work Sans", serif;
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo {
+    width: 135px;
+    height: 56px;
+    border-radius: 8px;
+    border-width: 1px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 84px 229px 68px 229px;
+}
+.Platform {
+    width: 593px;
+    height: 48px;
+    margin: 0px;
+    size: 40px;
+font-weight: 400;
+font-size: 40px;
+}
+.login {
+    width: 400px;
+    height: 32px;
+    margin: 48px 0 32px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+}
+input {
+    margin-bottom: 32px;
+    width: 400px;
+    height: 48px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #AFB1B6;
+}
+.button {
+    font-family: "Work Sans", serif;
+    width: 400px;
+    height: 48px;
+    border-radius: 16px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    border: 1px solid #000000;
+
+}
+.button:hover {
+    background-color: rgb(22, 22, 22);
+}
+.parahraf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 24px;
+    margin-top: 24px;
+}
+.parahraf a {
+    color: black;
+    line-height: 24px;
+}
+.parahraf a:hover {
+text-decoration: none;
+}
+label {
+    color: #61646B;
+    margin: 0 0 8px 0;
+    width: 400px;
+    height: 24px;
+    display: block;
+}
+.content {
+    width: 400;
+height: 505;
+top: 208px;
+left: 520px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.conteiner {
+top: 80px;
+left: 80px;
+
+}
+.emailPass {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+}
+input#email {
+margin-bottom: 24px;
+
+}
+.password-container {
+    position: relative;
+    width: 400px;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 45px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #AFB1B6;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.password-container img {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
