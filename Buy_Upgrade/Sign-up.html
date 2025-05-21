@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+    <h1 class="logo">LOGO</h1>
+    <h2 class="Platform">Welcome to {{Platform name}}</h2>
+    <div class="content">
+    <h3 class="login"> Sign up</h3>
+    <form class="signup">
+        <label for="email" class="emailPass">Email</label>
+        <input type="email" id="email" name="email"  required placeholder=" ">
+        <label for="pass">Password</label>
+        <div class="password-container">
+            <input type="password" id="pass" name="password" required>
+            <img src="Show.png" id="togglePassword" class="eye-icon" alt="Show Password">
+        </div>
+  </form>
+<button class="button" onclick="submit()">Sign up</button>
+<p class="parahraf">Already have an account? <a href="Sign-in.html">Sign in</a></p>
+</div>
+</div>
+    <script src="eye.js"></script>
+    <script src="INPUT.js"></script>
+</body>
+</html>
